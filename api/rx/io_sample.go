@@ -8,11 +8,11 @@ const (
 	ioSampleAddr64Offset            = 0
 	ioSampleAddr16Offset            = 8
 	ioSampleOptionsOffset           = 9
-	ioSampleSampleCountOffset       = 10
-	ioSampleDigitalSampleMaskOffset = 11
-	ioSampleAnalogSampleMaskOffset  = 13
-	ioSampleDigitalSamplesOffset    = 14
-	ioSampleAnalogSampleOffset      = 16
+	ioSampleSampleCountOffset       = 11
+	ioSampleDigitalSampleMaskOffset = 12
+	ioSampleAnalogSampleMaskOffset  = 14
+	ioSampleDigitalSamplesOffset    = 15
+	ioSampleAnalogSampleOffset      = 17
 )
 
 type IOSample struct {
